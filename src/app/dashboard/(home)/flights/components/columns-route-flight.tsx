@@ -1,5 +1,5 @@
 import { dateFormat } from '@/lib/utils';
-import { Flight } from '@prisma/client';
+import { Flight } from '@/generated/prisma';
 import { ArrowRight } from 'lucide-react';
 import React from 'react'
 

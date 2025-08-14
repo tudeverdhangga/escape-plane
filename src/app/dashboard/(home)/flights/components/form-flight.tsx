@@ -11,7 +11,7 @@ import {
 } from '@/components/ui/select';
 import React, { FC } from 'react';
 import SubmitFormButton from '../../components/submit-form-button';
-import type { Airplane, Flight } from '@prisma/client';
+import type { Airplane, Flight } from '@/generated/prisma';
 import { useActionState } from "react";
 import { saveFlight, updateFlight } from '../lib/actions';
 import type { ActionResult } from "@/app/dashboard/(auth)/signin/form/actions";
