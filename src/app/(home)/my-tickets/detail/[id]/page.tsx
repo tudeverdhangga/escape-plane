@@ -6,16 +6,15 @@ import FlightDetail from "./components/flight-detail";
 import { getDetailTicket } from "../../lib/data";
 import { dateFormat } from "@/lib/utils";
 
-type Params = {
-	id: string;
-};
-
-interface DetailTicketProps {
-	params: Params;
+interface PageProps {
+	params: Promise<{
+		id: string;
+	}>;
 }
 
-export default async function DetailTicketPage({ params }: DetailTicketProps) {
-	const data = await getDetailTicket(params.id);
+export default async function DetailTicketPage({ params }: PageProps) {
+	const { id } = await params;
+	const data = await getDetailTicket(id);
 
 	return (
 		<>
