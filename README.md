@@ -2,6 +2,8 @@
 
 A modern flight booking application built with Next.js, featuring real-time seat selection, secure payments with Midtrans, and a beautiful user interface.
 
+🌐 **[Live Demo](https://escape-plane-mu.vercel.app/)**
+
 ![EscapePlane Logo](./public/assets/images/logos/logo.svg)
 
 ## 🌟 Features
