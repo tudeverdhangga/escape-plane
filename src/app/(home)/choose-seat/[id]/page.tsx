@@ -5,17 +5,16 @@ import FlightDetail from "./components/flight-detail";
 import { getFlightById } from "../../lib/data";
 import { getUser } from "@/lib/auth";
 
-type Params = {
-	id: string;
-};
-
-interface ChooseSeatProps {
-	params: Params;
+interface PageProps {
+	params: Promise<{
+		id: string;
+	}>;
 }
 
-export default async function ChooseSeatPage({ params }: ChooseSeatProps) {
+export default async function ChooseSeatPage({ params }: PageProps) {
+	const { id } = await params;
 	const { session } = await getUser();
-	const flight = await getFlightById(params.id);
+	const flight = await getFlightById(id);
 
 	return (
 		<section
