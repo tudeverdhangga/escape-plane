@@ -1,4 +1,4 @@
-import { Airplane, Flight, FlightSeat, TypeSeat } from "@prisma/client"
+import { Airplane, Flight, FlightSeat, TypeSeat } from "@/generated/prisma"
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
 import dayjs from 'dayjs'

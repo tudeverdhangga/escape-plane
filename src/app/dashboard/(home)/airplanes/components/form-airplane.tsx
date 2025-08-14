@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 import { FC, useActionState } from "react";
 import { saveAirplane, updateAirplane } from "../lib/actions";
 import type { ActionResult } from "@/app/dashboard/(auth)/signin/form/actions";
-import type { Airplane } from "@prisma/client";
+import type { Airplane } from "@/generated/prisma";
 import SubmitFormButton from "../../components/submit-form-button";
 
 interface FormAirplaneProps {

@@ -1,4 +1,4 @@
-import type { FlightSeat } from "@prisma/client";
+import type { FlightSeat } from "@/generated/prisma";
 import React, { createContext, useState, type FC, type ReactNode } from "react";
 
 interface SeatProviderProps {

@@ -2,7 +2,7 @@
  
 import { Button } from "@/components/ui/button";
 import { getFileUrl } from "@/lib/supabase";
-import { Airplane } from "@prisma/client";
+import { Airplane } from "@/generated/prisma";
 import type { ColumnDef } from "@tanstack/react-table";
 import { Pencil } from "lucide-react";
 import Image from "next/image";

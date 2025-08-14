@@ -1,4 +1,4 @@
-import type { FlightSeat } from "@prisma/client";
+import type { FlightSeat } from "@/generated/prisma";
 import React, { useContext } from "react";
 import { SeatContext, type SeatContextType } from "../providers/seat-provider";
 

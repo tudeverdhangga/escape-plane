@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { getFileUrl } from "@/lib/supabase";
 import { dateFormat } from "@/lib/utils";
-import type { Airplane, Flight, FlightSeat, Ticket } from "@prisma/client";
+import type { Airplane, Flight, FlightSeat, Ticket } from "@/generated/prisma";
 import Link from "next/link";
 import React from "react";
 

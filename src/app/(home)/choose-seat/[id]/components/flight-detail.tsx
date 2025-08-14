@@ -11,7 +11,7 @@ import {
 	SEAT_VALUES,
 	type SeatValuesType,
 } from "@/lib/utils";
-import type { Airplane, Flight, FlightSeat } from "@prisma/client";
+import type { Airplane, Flight, FlightSeat } from "@/generated/prisma";
 import React, { useContext, useMemo } from "react";
 import { SeatContext, type SeatContextType } from "../providers/seat-provider";
 import { toast } from "sonner";

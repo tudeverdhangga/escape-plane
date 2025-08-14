@@ -1,6 +1,6 @@
 "use client";
 
-import type { TypeSeat } from "@prisma/client";
+import type { TypeSeat } from "@/generated/prisma";
 import React, { type ChangeEvent, useContext } from "react";
 import {
 	type FContext,

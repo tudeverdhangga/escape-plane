@@ -3,7 +3,7 @@
 import React, { useMemo } from "react";
 import SeatItem from "./seat-item";
 import useCheckoutData from "@/hooks/useCheckoutData";
-import type { FlightSeat } from "@prisma/client";
+import type { FlightSeat } from "@/generated/prisma";
 
 interface SeatListProps {
 	seats: FlightSeat[];

@@ -1,6 +1,6 @@
 "use client";
 
-import type { Airplane } from "@prisma/client";
+import type { Airplane } from "@/generated/prisma";
 import React, { type ChangeEvent, useContext, type FC } from "react";
 import {
 	type FContext,

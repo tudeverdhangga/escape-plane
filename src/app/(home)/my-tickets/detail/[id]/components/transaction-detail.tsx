@@ -5,7 +5,7 @@ import type {
 	FlightSeat,
 	Ticket,
 	User,
-} from "@prisma/client";
+} from "@/generated/prisma";
 import React from "react";
 
 type Data = Ticket & {

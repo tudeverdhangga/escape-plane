@@ -1,6 +1,6 @@
 "use client";
 
-import type { Airplane, Flight } from "@prisma/client";
+import type { Airplane, Flight } from "@/generated/prisma";
 import { useQuery } from "@tanstack/react-query";
 import React, {
 	createContext,

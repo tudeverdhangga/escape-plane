@@ -1,6 +1,6 @@
 import type { NextRequest } from "next/server";
 import prisma from "~/lib/prisma";
-import type { TypeSeat } from "@prisma/client";
+import type { TypeSeat } from "@/generated/prisma";
 
 export async function POST(request: NextRequest) {
 	const body = await request.json();
